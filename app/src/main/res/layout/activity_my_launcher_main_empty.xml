@@ -9,4 +9,83 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.nikolay.mygeoapplication.MyLauncherMainEmptyActivity">
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/res_but_u"
+        android:id="@+id/button_upd"
+        android:layout_marginLeft="56dp"
+        android:layout_marginStart="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="87dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/res_but_stop"
+        android:id="@+id/button_stop"
+        android:layout_alignTop="@+id/button_upd"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="51dp"
+        android:layout_marginEnd="51dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/text_cord"
+        android:id="@+id/final_CORDINATES"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/display_lat"
+        android:layout_marginTop="67dp"
+        android:layout_below="@+id/final_CORDINATES"
+        android:layout_toRightOf="@+id/button_upd"
+        android:layout_toEndOf="@+id/button_upd" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/display_lon"
+        android:layout_below="@+id/display_lat"
+        android:layout_toRightOf="@+id/button_upd" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/text_lon"
+        android:id="@+id/final_LON"
+        android:layout_alignBottom="@+id/display_lon"
+        android:layout_toLeftOf="@+id/final_CORDINATES"
+        android:layout_toStartOf="@+id/final_CORDINATES" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/text_lat"
+        android:id="@+id/final_LAT"
+        android:layout_alignBottom="@+id/display_lat"
+        android:layout_alignLeft="@+id/final_LON"
+        android:layout_alignStart="@+id/final_LON" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/res_but_uc"
+        android:id="@+id/button_updc"
+        android:layout_below="@+id/button_stop"
+        android:layout_alignLeft="@+id/button_upd"
+        android:layout_alignStart="@+id/button_upd" />
 </RelativeLayout>

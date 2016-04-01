@@ -2,4 +2,10 @@
     <string name="app_name">MyGeoApplication</string>
     <string name="title_activity_blank">blankActivity</string>
     <string name="title_activity_maps">Map</string>
+    <string name="text_cord">Coordinates</string>
+    <string name="text_lon">lon</string>
+    <string name="text_lat">lat</string>
+    <string name="res_but_uc">Update continiously</string>
+    <string name="res_but_u">Update</string>
+    <string name="res_but_stop">Stop</string>
 </resources>
