@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MyGeoApplication</string>
+    <string name="title_activity_blank">blankActivity</string>
+    <string name="title_activity_maps">Map</string>
 </resources>
